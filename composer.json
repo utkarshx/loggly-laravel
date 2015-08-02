@@ -1,0 +1,27 @@
+{
+    "name": "utkarshx/loggly-laravel",
+    "description": "Loggly logging integration for Laravel projects",
+    "keywords": ["laravel", "loggly", "monitoring", "error", "logging"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Utkarsh Shukla",
+            "homepage": "https://github.com/utkarshx"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "illuminate/support": "4.*|5.*",
+        "monolog/monolog": "~1.14.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "3.0.*",
+        "mockery/mockery": "*",
+        "satooshi/php-coveralls": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Utkarshx\\Loggly\\": "src/"
+        }
+    }
+}
